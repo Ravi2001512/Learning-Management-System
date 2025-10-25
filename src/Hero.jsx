@@ -12,7 +12,7 @@ function Hero() {
       </div>
           <h1 className="hero-title">Welcome Students!</h1>
           <p className="text">
-           This is the Official website in H/Meegasara M.V
+           This is the Official website in H/Meegasara M.V.
           </p>
         </div>
         <div className="hero-image-container">
