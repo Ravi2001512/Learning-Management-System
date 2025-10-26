@@ -2,82 +2,93 @@ import ProductCards from "./ProductCards";
 import { Separator } from "@/components/ui/separator";
 import Tab from "./Tab";
 import { useState } from "react";
+import img2 from "./images/grade6.jpg"
 
 function Products() {
   const products = [
     {
       categoryId: "1",
-      image: "/grade1.jpg",
+      image: {img2},
       _id: "1",
-      name: "Grade 1",
-      price: "549.00",
+      name: "Grade 6",
+      price: "5.00",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sequi?",
+        "Grade 6 full Syllabus",
     },
     {
-      categoryId: "3",
+      categoryId: "1",
       image: "/grade1.jpg",
       _id: "2",
-      name: "Echo Dot",
-      price: "99.00",
+      name: "grade 7",
+      price: "5.00",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sequi?",
+        "Grade 7 full Syllabus",
     },
     {
-      categoryId: "2",
+      categoryId: "1",
       image: "/grade1.jpg",
       _id: "3",
-      name: "Galaxy Pixel Buds",
-      price: "99.00",
+      name: "Grade 8",
+      price: "5.00",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sequi?",
+        "Grade 8 full syllabus",
     },
     {
       categoryId: "1",
       image: "/grade1.jpg",
       _id: "4",
-      name: "Bose QuiteComfort",
-      price: "249.00",
+      name: "Grade 9",
+      price: "5.00",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sequi?",
+        "Grade 9 Full Syllabus",
+    },
+    {
+      categoryId: "2",
+      image: "/grade1.jpg",
+      _id: "5",
+      name: "Grade 10",
+      price: "10.00",
+      description:
+        "Grade 10 full Syllabus",
+    },
+    {
+      categoryId: "2",
+      image: "/grade1.jpg",
+      _id: "6",
+      name: "Grade 11",
+      price: "10.00",
+      description:
+        "Grade 11 full syllabus",
     },
     {
       categoryId: "3",
       image: "/grade1.jpg",
-      _id: "5",
-      name: "Bose SoundLink",
-      price: "119.00",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sequi?",
-    },
-    {
-      categoryId: "5",
-      image: "/grade1.jpg",
-      _id: "6",
-      name: "Apple Watch 9",
-      price: "699.00",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sequi?",
-    },
-    {
-      categoryId: "4",
-      image: "/grade1.jpg",
       _id: "7",
-      name: "Apple Iphone 15",
-      price: "1299.00",
+      name: "Grade 12",
+      price: "15.00",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sequi?",
+        "Grade 12 full syllabus",
     },
     {
-      categoryId: "4",
+      categoryId: "3",
       image: "/grade1.jpg",
       _id: "8",
-      name: "Galaxy Pixel 8",
-      price: "549.00",
+      name: "Grade 13",
+      price: "15.00",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sequi?",
+        "Grade 13 full Syllabus",
+    },
+    {
+    categoryId: "4",
+      image: "/grade1.jpg",
+      _id: "8",
+      name: "Speciall",
+      price: "00.00",
+      description:
+        "Special Announcement",
     },
   ];
+
 
   const categories = [
     { _id: "ALL", name: "All" },
